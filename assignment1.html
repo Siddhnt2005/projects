@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>Assignment</title>
+<link rel="stylesheet" href="assignment1.css">
+</head>
+<body>
+<form>
+<fieldset>
+<legend>INQUIRY FORM</legend>
+<label for="date">Date of Inquiry:</label>
+<input type="date" id="date" name="date"><br><br>
+
+<label for="name">Name:</label>
+<input type="text" id="fname" name="fname" value="" placeholder="First Name">
+<input type="text" id="mname" name="mname" value="" placeholder="Middle Name">
+<input type="text" id="lname" name="lname" value="" placeholder="Last Name"><br><br>
+
+<div class="adds">
+    <div class="labl">
+<label for="adrs">Address:</label>
+    </div>
+    <div class="textar">
+<textarea name="adrs" id="adrs" rows="5" cols="40"></textarea><br><br>
+    </div>
+</div>
+
+<label for="no">Contact No:</label>
+<select name="countrycode" id="code" class="marg"> 
+<option value="+91">+91</option>
+<option value="+93">+93</option>
+<option value="+61">+61</option>
+<option value="+55">+55</option>
+</select>
+<input type="tel" id="mobno" class="marg" name="mobno" placeholder="Mobile" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" maxlength="12">
+<input type="tel" id="resno" class="marg" name="resno" placeholder="Residence" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" maxlength="12"><br><br>
+
+<label for="email">E-mail Id:</label>
+<input type="email" id="emid" name="emid"><br><br>
+
+<label for="bdate">Date of Birth:</label>
+<input type="date" id="bdate" name="bdate" max="2024-12-31"><br><br>
+
+<label for="qualification">Qualification:</label>
+<select id="ql" name="ql">
+<option value="10th">10th</option>
+<option value="12th">12th</option>
+<option value="B.com">B.com</option>
+<option value="BCA">BCA</option>
+</select><br><br>
+
+<label for="know">Previous Knowledge of Computer:</label>
+<input type="radio" id="know" name="know" value="Yes">
+<label for="yes">Yes</label>
+<input type="radio" id="know" name="know" value="No">
+<label for="yes">No</label><br><br>
+
+<label for="specify">If Yes Please Specify</label>
+<input type="text" id="specify" name="specify" value=""><br><br>
+
+<label for="disha">How You Know About DiSHA:</label>
+<label for="student" id="stu">1.Students</label>
+<input type="checkbox" id="select" name="select" value="students">
+<label for="hoarding">2.Hoarding</label>
+<input type="checkbox" id="select" name="select" value="hoarding">
+<label for="news">3.Newspaper</label>
+<input type="checkbox" id="select" name="select" value="newspaper">
+<label for="news">4.Other</label>
+<input type="text" id="other" name="other" value=""><br><br>
+
+<label for="batch">Batch & Timing:</label>
+<input type="time" id="batch" name="batch">
+<label for="timing">To</label>
+<input type="time" id="time" name="time"><br><br>
+
+<label for="interest">Interesting in:</label>
+<select id="in" name="in">
+<option value="10th">Microsoft Office</option>
+<option value="12th">Tally Prime</option>
+<option value="B.com">Graphic Designing</option>
+<option value="BCA">Web Designing</option>
+</select><br><br>
+
+<div class="btn">
+<input type="reset" id="reset" name="reset">
+<input type="submit" id="submit" name="submit">
+</div>
+</fieldset>
+</form>
+</body>
+</html>

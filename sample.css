@@ -1,0 +1,157 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn, .a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn{
+    background-color: #04AA6D;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #856b6b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  a {
+    display: inline-block;
+  }
+  
+  
+  .link1-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .link1-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown2:hover .link1-content , .dropdown3:hover .link2-content, .dropdown4:hover .link3-content{
+    display: block;
+  }
+  
+  a {
+    display: inline-block;
+  }
+  .link1-content a {
+  display:block;
+  }
+  
+  .sub li {
+     display:block;
+     background-color:rgba(112, 189, 182, 0.938) ;
+  }
+  ul.sub li{
+    float: none;
+  }
+  .link1-content,.link2-content ,.link3-content{
+    margin-left: 80px;
+    
+  }
+  .link2-content, .link3-content{
+    display: none;
+    background-color: #f9f9f9;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+    .link2-content a ,.link3-content a{
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      body{
+        background-color: rgb(136, 218, 136);
+      }
+      li.right{
+        float: right;
+        
+      }
+      footer{
+        background-color: rgb(16, 141, 47);
+        color: white;
+        height: 150px;
+        
+      }
+      .ft{
+        padding-top: 90px;
+        margin-left: 40%;
+       
+      }
+      img{
+        float: left;
+        margin-right: 15px;
+      }
+      div.gallery{
+        border: 1px inset orangered;
+        width: 160px;
+        margin: 20px;
+        margin-top: 230px;
+    }
+    div.gallery:hover{
+        border: 2px inset green;
+    }    
+    div.gallery img{
+        width: 100%;
+        height: 150px;
+    }
+    div.desc{
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(144, 235, 121);
+    }
+    .responsive{
+      float: left;
+      margin-left: 15px;
+      margin-bottom: 40px;
+    }
+    .cl{
+      clear: both;
+    }
